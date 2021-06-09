@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153047173626",
+    "project_id": "liveasy-project",
+    "storage_bucket": "liveasy-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153047173626:android:3dc5dec43af8e00731fc43",
+        "android_client_info": {
+          "package_name": "aakashnihalani.otp_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153047173626-60nq568pp8fc11vl45fh2iqv0m4ldkvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMzCCOAxcUaNcLd67iJwcCnXFiw3fOHIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153047173626-60nq568pp8fc11vl45fh2iqv0m4ldkvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
