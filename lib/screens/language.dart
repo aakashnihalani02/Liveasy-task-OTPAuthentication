@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:otp_app/screens/number.dart';
 import 'package:otp_app/constants.dart';
 import 'package:otp_app/components/reusable_Button.dart';
-import 'package:otp_app/page_transitions.dart';
+import 'file:///C:/Users/user/AndroidStudioProjects/flash-chat-flutter/lib/page_transitions.dart';
 
 class LanguageScreen extends StatefulWidget {
   static const String id = 'language_screen';
@@ -88,8 +88,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
                 height: 47,
                 buttonText: 'NEXT',
                 onPressed: () {
-                  Navigator.push(
-                      context, SlideRightRoute(page: NumberScreen()));
+                  Navigator.push(context, FadeRoute(page: NumberScreen()));
                 }),
           ],
         ),

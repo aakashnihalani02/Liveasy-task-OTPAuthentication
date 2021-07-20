@@ -105,7 +105,7 @@ class _NumberScreenState extends State<NumberScreen> {
                   ),
                   child: ReusableButton(
                     width: double.infinity,
-                    height: 60,
+                    height: 70,
                     buttonText: "CONTINUE",
                     onPressed: () {
                       setState(() {
